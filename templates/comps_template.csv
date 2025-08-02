@@ -1,0 +1,7 @@
+Ticker,EV,EBITDA,P/E,EV/EBITDA,Source
+BABA,200000,35000,15.2,5.7,Manual Estimate
+JD,90000,8000,22.5,11.3,Manual Estimate
+MELI,80000,5000,72.4,16.0,Manual Estimate
+SHOP,100000,2000,50.0,50.0,Manual Estimate
+Coupang,35000,1500,23.3,23.3,Manual Estimate
+SE,45000,1300,34.6,34.6,Sea 20-F Filing

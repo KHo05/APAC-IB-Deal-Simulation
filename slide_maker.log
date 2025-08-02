@@ -1,0 +1,7 @@
+2025-07-31 15:44:48,739 - INFO - Chart saved to C:\Users\ASUS\AppData\Local\Temp\tmpq30ci6ib\dcf_chart.png
+2025-07-31 15:44:48,768 - INFO - Using built-in default template
+2025-07-31 15:44:48,775 - ERROR - Presentation build failed: 'WindowsPath' object has no attribute 'seek'
+2025-07-31 15:44:48,777 - ERROR - Fatal error: 'WindowsPath' object has no attribute 'seek'
+2025-07-31 15:49:19,569 - WARNING - Template not found, using default: templates\pitchbook_template.pptx
+2025-07-31 15:49:20,875 - WARNING - Using fallback PDF method
+2025-07-31 15:49:21,094 - INFO - Successfully created: 01_Pitchbook.pdf
