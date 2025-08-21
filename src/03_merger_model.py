@@ -1,4 +1,6 @@
-import argparse, pandas as pd, numpy as np
+import argparse
+import pandas as pd
+import numpy as np
 import os
 
 def build_accretion_dilution(acq_path, tgt_path, cash_pct, stock_pct, synergies, year):
@@ -45,7 +47,8 @@ if __name__ == "__main__":
         year=args.deal_year
     )
 
-    with pd.ExcelWriter(args.output) as writer:
+    mode = 'a' if os.path.exists(args.output) else 'w'
+    with pd.ExcelWriter(args.output, engine='openpyxl', mode=mode) as writer:
         model.to_excel(writer, sheet_name="Merger_Model", index=False)
     
-    print(f"✅ Merger model saved to {args.output}")
+    print(f"✅ Merger model appended to {args.output}")
