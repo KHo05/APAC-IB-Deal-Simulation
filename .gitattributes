@@ -1,0 +1,2 @@
+# Mark raw HTML data as documentation to exclude from code stats
+00_Raw_Data/*.html linguist-documentation
